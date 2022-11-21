@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-ndla-h5p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NDLANO/eslint-config-ndla-h5p.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NDLANO/eslint-config-ndla-h5p/issues"
+  },
+  "homepage": "https://github.com/NDLANO/eslint-config-ndla-h5p#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7 || ^8"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
