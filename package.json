@@ -16,7 +16,7 @@
   },
   "keywords": [],
   "author": "NDLA",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/NDLANO/eslint-config-ndla-h5p/issues"
   },
