@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'import',
+  ],
   rules: {
     semi: [2, 'always'],
     indent: ['error', 2, { SwitchCase: 1 }],
