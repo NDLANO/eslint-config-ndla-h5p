@@ -24,6 +24,7 @@ module.exports = {
     'arrow-parens': ['error', 'always'],
     'no-use-before-define': 'error',
     'import/no-extraneous-dependencies': 'warn',
-    'quotes': ['error', 'single']
+    'quotes': ['error', 'single'],
+    'object-curly-spacing': ['error', 'always']
   },
 };
