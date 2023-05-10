@@ -1,4 +1,9 @@
 module.exports = {
+  globals: {
+    'H5P': 'readonly',
+    'H5PEditor': 'readonly',
+    'H5PIntegration': 'readonly'
+  },
   plugins: [
     'import',
   ],
