@@ -1,20 +1,15 @@
 {
   "name": "eslint-config-ndla-h5p",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "files": [
     "index.js",
     ".eslintrc.js"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NDLANO/eslint-config-ndla-h5p.git"
   },
-  "keywords": [],
   "author": "NDLA",
   "license": "MIT",
   "bugs": {
