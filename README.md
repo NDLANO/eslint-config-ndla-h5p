@@ -12,10 +12,12 @@ Rules that H5P Group's config does not mention are free to change within this pr
    npm install github:NDLANO/eslint-config-ndla-h5p --save-dev
    ```
 
-1. Extend the configuration like this:
+1. Extend the configuration like this in a flat configuration file named `eslint.config.js` (or as needed):
 
-   ```json
-   {
-     "extends": ["eslint-config-ndla-h5p"]
-   }
+   ```js
+   import eslintConfigNdlaH5P from 'eslint-config-ndla-h5p';
+
+   export default [
+   eslintConfigNdlaH5P.configs['flat/recommended']
+   ];
    ```
