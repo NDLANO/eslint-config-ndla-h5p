@@ -23,7 +23,7 @@
     "@stylistic/eslint-plugin": "^5.7.1",
     "eslint": "^9",
     "eslint-plugin-import": "^2.32.0",
-    "globals": "^17.2.0"
+    "globals": "^17.3.0"
   },
   "type": "module"
 }
