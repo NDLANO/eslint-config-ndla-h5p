@@ -20,10 +20,10 @@
     "eslint": "^9"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin": "^5.7.1",
+    "@stylistic/eslint-plugin": "^5.9.0",
     "eslint": "^9",
     "eslint-plugin-import": "^2.32.0",
-    "globals": "^17.3.0"
+    "globals": "^17.4.0"
   },
   "type": "module"
 }
