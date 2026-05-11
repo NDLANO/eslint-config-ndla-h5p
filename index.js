@@ -11,7 +11,7 @@ export default {
     version: '1.1.0',
   },
   configs: {
-    'flat/recommended': { ...eslintConfig[0] },
+    'flat/recommended': eslintConfig,
   },
   rules: {},
   processors: {},

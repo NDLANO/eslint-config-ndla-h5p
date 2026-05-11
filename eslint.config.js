@@ -1,10 +1,13 @@
+import js from '@eslint/js';
 import globals from 'globals';
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from 'eslint-plugin-import-x';
 import stylisticJs from '@stylistic/eslint-plugin';
 
 const INDENTATION_CHARS = 2;
 
-export default [{
+export default [
+  { ...js.configs.recommended, files: ['**/*.js', '**/*.mjs', '**/*.cjs'] },
+  {
   ...importPlugin.flatConfigs.recommended,
   ...{
     name: 'eslint-config-ndla-h5p',
@@ -60,4 +63,5 @@ export default [{
       '@stylistic/js/max-len': ['warn', { 'code': 120 }],
     },
   },
-}];
+  },
+];
