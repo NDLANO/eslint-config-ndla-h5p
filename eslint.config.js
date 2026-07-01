@@ -64,4 +64,13 @@ export default [
     },
   },
   },
+  {
+    name: 'eslint-config-ndla-h5p/node',
+    files: ['webpack.config.js', 'eslint.config.js'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
 ];
