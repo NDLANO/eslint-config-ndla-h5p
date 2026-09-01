@@ -8,7 +8,7 @@ import eslintConfig from './eslint.config.js';
 export default {
   meta: {
     name: eslintConfig.name,
-    version: '1.1.0',
+    version: '1.2.0',
   },
   configs: {
     'flat/recommended': eslintConfig,
